@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import eo.cn.yxwuliu.R;
 import eo.cn.yxwuliu.bean.GoodsBean;
-import eo.cn.yxwuliu.ui.RoundImageView;
 import eo.cn.yxwuliu.util.DateUtils;
+import eo.cn.yxwuliu.widgets.RoundImageView;
 
 /**
  * 这个是车源界面的viewHolder

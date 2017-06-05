@@ -74,7 +74,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="55.0dip">
 
-                    <eo.cn.yxwuliu.ui.RoundImageView
+                    <eo.cn.yxwuliu.widgets.RoundImageView
                         android:id="@+id/face_im"
                         android:layout_width="50.0dip"
                         android:layout_height="50.0dip"
