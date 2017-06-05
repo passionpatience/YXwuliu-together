@@ -50,7 +50,7 @@
                     android:background="@color/backgroud_color"
                     android:orientation="horizontal">
 
-                    <eo.cn.yxwuliu.widgets.RoundImageView
+                    <eo.cn.yxwuliu.ui.RoundImageView
                         android:id="@+id/userImg"
                         android:layout_width="50.0dip"
                         android:layout_height="50.0dip"
