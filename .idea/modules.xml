@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/YXwuliu-master.iml" filepath="$PROJECT_DIR$/YXwuliu-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YXwuliu-together.iml" filepath="$PROJECT_DIR$/YXwuliu-together.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

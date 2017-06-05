@@ -65,6 +65,15 @@ dependencies {
     //依赖下面的库
     compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'liji.library.dev:citypickerview:1.0.0'
+
     //xRecyclerView
     compile 'com.jcodecraeer:xrecyclerview:1.3.2'
+    //定位
+    compile 'com.zaaach:citypicker:1.1'
+    //日期选择器
+    compile 'cn.aigestudio.datepicker:DatePicker:2.2.0'
+    //轮播图
+    compile('cn.trinea.android.view.autoscrollviewpager:android-auto-scroll-view-pager:1.1.2') {
+        exclude module: 'support-v4'
+    }
 }

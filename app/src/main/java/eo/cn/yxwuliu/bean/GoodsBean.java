@@ -19,7 +19,7 @@ public class GoodsBean extends ResultBean implements Serializable {
         this.data = data;
     }
 
-    public static class DataBean {
+    public static class DataBean implements Serializable {
         /**
          * huozhu_name : 赵云
          * yuan_dizhi : 广州,天河
