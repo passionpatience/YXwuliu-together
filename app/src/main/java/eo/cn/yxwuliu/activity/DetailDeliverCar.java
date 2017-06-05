@@ -39,7 +39,7 @@ public class DetailDeliverCar extends BaseMvpActivity implements View.OnClickLis
     EditText mEdittextPublishcarsSize;
     @BindView(R.id.textview_delivergoods_Stere)
     TextView mTextviewDelivergoodsStere;
-    @BindView(R.id.edittext_publishcars_starttime)
+    @BindView(R.id.edittext_publishcars_starttime) //发车时间
     TextView mEdittextPublishcarsStarttime;
     @BindView(R.id.remark)
     EditText mRemark;
@@ -70,7 +70,8 @@ public class DetailDeliverCar extends BaseMvpActivity implements View.OnClickLis
     protected void setListener() {
         mEdittextPublishcarsStarting.setOnClickListener(this);
         mEdittextPublishcarsEnding.setOnClickListener(this);
-        mEdittextPublishcarsCartype.setOnClickListener(this);
+        mEdittextPublishcarsCartype.setOnClickListener(this); //车辆类型
+        mEdittextPublishcarsStarttime.setOnClickListener(this); //发车时间
 
     }
 
@@ -83,6 +84,9 @@ public class DetailDeliverCar extends BaseMvpActivity implements View.OnClickLis
                 break;
             case R.id.edittext_publishcars_ending:
                 CitySeclectUtil.citySelect2(DetailDeliverCar.this, mEdittextPublishcarsEnding);
+                break;
+            case R.id.edittext_publishcars_cartype:
+//                CitySeclectUtil.citySelect2(DetailDeliverCar.this, mEdittextPublishcarsEnding);
                 break;
             case R.id.edittext_publishcars_starttime:
                 timeSelect();
