@@ -2,19 +2,22 @@ package eo.cn.yxwuliu.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import eo.cn.yxwuliu.R;
 import eo.cn.yxwuliu.base.BaseMvpActivity;
+import eo.cn.yxwuliu.bean.CarsBean;
 import eo.cn.yxwuliu.bean.GoodsBean;
 import eo.cn.yxwuliu.presenter.CarDetailPresenter;
+import eo.cn.yxwuliu.ui.RoundImageView;
 import eo.cn.yxwuliu.view.ICarDetailActivityView;
-import eo.cn.yxwuliu.widgets.RoundImageView;
 
 /**
  * 这个是车源详情界面

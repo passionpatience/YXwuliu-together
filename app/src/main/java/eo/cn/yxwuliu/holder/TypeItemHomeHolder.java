@@ -9,8 +9,8 @@ import android.widget.TextView;
 import eo.cn.yxwuliu.R;
 import eo.cn.yxwuliu.activity.ListDetailActivity;
 import eo.cn.yxwuliu.bean.GoodsBean;
+import eo.cn.yxwuliu.ui.RoundImageView;
 import eo.cn.yxwuliu.widgets.OrderDialog;
-import eo.cn.yxwuliu.widgets.RoundImageView;
 
 
 /**
